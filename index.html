@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="/assets/materialize-v1.0.0/materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/util.css">
 </head>
 <body>
    
   <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
+    <div class="nav-wrapper purple lighten-4 top-navbar">
+      <a href="#!" class="brand-logo hide-on-med-and-up">Logo</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
+      <ul class="hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
         <li><a href="collapsible.html">Javascript</a></li>
@@ -25,11 +26,28 @@
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
+    <li><div class="user-view">
+      <div class="background">
+        <img src="/assets/img/images.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="/assets/img/WhatsApp Image 2022-07-23 at 10.18.47 PM.jpeg"></a>
+      <a href="#name"><span class="black-text name">Maryam Zamani</span></a>
+      <a href="#email"><span class="black-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">link</i>First Link With Icon</a></li>
+    <li><a href="#!"><i class="material-icons">link</i>Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">home</a></li>
+    <li><a class="waves-effect" href="#!">account</a></li>
   </ul>
+
+  <section class="flex-c-m flex-col sizefull p-t-20 " >
+    <img src="/assets/img/nody-عکس-تصویر-زمینه-غذا-1633172427.jpg" class="w-full" alt="">
+    <a class="waves-effect waves-light btn w-full max-w-250 m-t-10 purple lighten-4 radius"><i class="material-icons left  ">cloud</i>Resturants</a>
+    <a class="waves-effect waves-light btn w-full max-w-250 m-t-10 purple lighten-4 radius"><i class="material-icons  left ">cloud</i>Locations</a>
+
+  </section>
 
 
 
